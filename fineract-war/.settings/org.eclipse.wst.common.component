@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="fineract-war">
+		<property name="context-root" value="fineract-war"/>
+		<dependent-module archiveName="fineract-provider-plain.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fineract-provider/fineract-provider">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="fineract-investor.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fineract-investor/fineract-investor">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="fineract-loan.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fineract-loan/fineract-loan">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="fineract-core.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fineract-core/fineract-core">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="fineract-avro-schemas.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fineract-avro-schemas/fineract-avro-schemas">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

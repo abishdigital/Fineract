@@ -1,0 +1,13 @@
+package org.apache.fineract.organisation.office.mapper;
+
+import javax.annotation.processing.Generated;
+import org.springframework.stereotype.Component;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2024-02-27T15:26:51+0530",
+    comments = "version: 1.5.5.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.5.jar, environment: Java 17.0.10 (Azul Systems, Inc.)"
+)
+@Component
+public class OfficeDataMapperImpl implements OfficeDataMapper {
+}
